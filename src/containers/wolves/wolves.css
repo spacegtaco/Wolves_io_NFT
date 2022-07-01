@@ -1,0 +1,142 @@
+.wolves__header {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.wolves__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.wolves__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.wolves__header-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.wolves__header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+}
+
+.wolves__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.wolves__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    background: #FFF;
+    border: 2px solid #FFF;
+    padding: 0 1rem;
+    color: #000;
+    cursor: pointer;
+    outline: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.wolves__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wolves__header-image img {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .wolves__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .wolves__header-content p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .wolves__header-content__input input,
+    .wolves__header-content__input button {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .wolves__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .wolves__header-content p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .wolves__header-content__input input,
+    .wolves__header-content__input button {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+
+#bg { 
+    z-index: -100;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100vh;
+    height: 100%;
+  }
+  

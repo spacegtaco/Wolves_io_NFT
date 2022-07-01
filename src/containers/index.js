@@ -1,0 +1,1 @@
+export { default as Wolves } from './wolves/Wolves';
