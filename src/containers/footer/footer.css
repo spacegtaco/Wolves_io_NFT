@@ -1,0 +1,32 @@
+
+    
+.socailIcons  {
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+    font-size: 30px;
+}
+.socailIcons img{
+height: 25px;
+width: auto;
+opacity: 50%;
+
+}
+.socialIcons :after {
+      position: absolute;
+      content: '';
+      height: 25px;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+}
+    
+.footer{
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+  
+    width: 100%;
+}
