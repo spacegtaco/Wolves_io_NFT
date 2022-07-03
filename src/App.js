@@ -1,6 +1,5 @@
 import React from 'react';
 import { Wolves } from './containers';
-import { Footer } from './containers';
 import './App.css';
 
 
@@ -11,7 +10,6 @@ const App = () => {
        
             <Wolves />
 
-       <Footer />
       </div>
     </div>
   )
