@@ -6,7 +6,7 @@
     position: relative;
     font-size: 30px;
    
-    transition: all .2s;
+    transition: all .5s;
     transform-origin: 50% 50%;
 }
 .socailIcons img {
@@ -16,8 +16,8 @@ opacity: 50%;
 
 }
 .socailIcons img:hover {
-    opacity: 25%;
-
+    opacity: 70%;
+    transform: scale(1.1);
 }
 .socialIcons :after {
       position: absolute;
