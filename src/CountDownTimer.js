@@ -32,7 +32,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <div className="show-counter">
       <div className="countdown-text">
-        <DateTimeDisplay value={days} type={"Days"} isDanger={days <= 1} />
+        <DateTimeDisplay value={days} type={"Days"} isDanger={false} />
         <p>:</p>
         <DateTimeDisplay value={hours} type={"Hours"} isDanger={false} />
         <p>:</p>

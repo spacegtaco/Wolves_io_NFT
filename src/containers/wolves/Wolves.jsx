@@ -8,7 +8,7 @@ const Wolves = () => {
   return (
     <div className="wolves__header section__padding" id="home">
       <div className="wolves__header-content">
-        
+        <CountDown />
      
       </div>
       <Footer />

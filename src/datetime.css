@@ -61,7 +61,7 @@
   flex-direction: column;
 }
 
-.show-counter .countdown.danger {
+.show-counter .countdown.danger > p {
   color: #ff0000;
 }
 
