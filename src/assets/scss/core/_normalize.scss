@@ -381,8 +381,10 @@ template {
 #bg { 
   z-index: -100;
   margin: 0;
-  position:static;
-
-  min-height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100vh;
   height: 100%;
 }

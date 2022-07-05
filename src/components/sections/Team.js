@@ -28,7 +28,7 @@ const Team = ({
 }) => {
 
   const outerClasses = classNames(
-    'features-split section',
+    'features-split section is-boxed',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',

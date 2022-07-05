@@ -23,7 +23,7 @@ const Values = ({
 }) => {
 
   const outerClasses = classNames(
-    'hero section center-content',
+    'hero section center-content is-boxed',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',

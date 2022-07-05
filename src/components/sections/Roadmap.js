@@ -24,7 +24,7 @@ const Roadmap = ({
 }) => {
 
   const outerClasses = classNames(
-    'hero section',
+    'hero section is-boxed is-boxed',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
