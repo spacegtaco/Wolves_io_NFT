@@ -42,12 +42,13 @@ const Roadmap = ({
     <section
       {...props}
       className={outerClasses}
+      id="roadmap"
     >
       <div className="container">
         <div className={innerClasses}>
          
           <div className="hero-content center-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+            <h1>
             Roadmap
             </h1>
          </div>

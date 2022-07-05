@@ -57,6 +57,7 @@ const Team = ({
     <section
       {...props}
       className={outerClasses}
+      id="team"
     >
       <div className="container">
         <div className={innerClasses}>
@@ -160,7 +161,7 @@ const Team = ({
                 @Karnel / The Sydeny Bouncer
                   </h3>
                 <p className="m-0">
-                BETA Wolves Media - Nick Williams known by many as ‘The Sydney Bouncer’ or Karnel, was born and bred in West Auckland | NZ. Record label owner of DNK World Music via FMG Universal, Club promoter, Graphic designer, visual effects editor, Podcaster, Owner at Stash Box Collectables and Co Founder of Matai Watches, of all the roles he holds, his most important is being a father. His love for NFT comes from a passion of card collecting and being an early adaptor into NBA Top shot before transitioning into the big world of opensea. Karnel will lead Wolves Media with 22 years experience in the entertainment industry. 
+                BETA Wolves Media - Nick Williams known by many as ‘The Sydney Bouncer’ or Karnel, was born and bred in West Auckland | NZ. Record label owner of DNK World Music via FMG Universal, Club promoter, Graphic designer, visual effects editor, Podcaster, Owner at Stash Box Collectables, of all the roles he holds, his most important is being a father. His love for NFT comes from a passion of card collecting and being an early adaptor into NBA Top shot before transitioning into the big world of opensea. Karnel will lead Wolves Media with 22 years experience in the entertainment industry. 
                 </p>
               </div>
               <div className={

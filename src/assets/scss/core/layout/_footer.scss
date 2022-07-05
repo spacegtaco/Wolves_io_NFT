@@ -135,8 +135,8 @@
 }
 
 .footer-nav {
-	margin-right: -$footer-nav--padding-h;
-	margin-left: -$footer-nav--padding-h;
+	margin-right: 0;
+	margin-left: 0;
 
 	a {
 		@include anchor-aspect(footer);
@@ -147,6 +147,16 @@
 		.invert-color & {
 			@include anchor-aspect(footer, inverse);
 		}
+	}
+
+	.button-group > [class*=button] {
+		margin: 0 8px;
+	}
+
+	.button {    
+		line-height: 40px;
+		height: 40px;
+		vertical-align: middle;
 	}
 }
 
@@ -159,6 +169,10 @@
 			margin-bottom: $footer-inner--padding-v;
 		}
 	}
+	li {
+		margin-bottom: 15px!important;
+		
+		}
 }
 
 @include media( '>medium' ) {

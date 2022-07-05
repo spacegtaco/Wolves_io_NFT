@@ -42,6 +42,7 @@ const Vision = ({
     <section
       {...props}
       className={outerClasses}
+      id="vision"
     >
       <div className="container-sm">
         <div className={innerClasses}>

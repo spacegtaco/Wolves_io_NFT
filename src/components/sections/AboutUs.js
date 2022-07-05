@@ -44,10 +44,11 @@ const AboutUs = ({
     <section
       {...props}
       className={outerClasses}
+      id="aboutus"
     >
       <div className="container-sm">
         <div className={innerClasses}>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div className="hero-figure illustration-element-01">
             <Image
                 src={WolfWhite} 
                 alt="Wins Wolf"

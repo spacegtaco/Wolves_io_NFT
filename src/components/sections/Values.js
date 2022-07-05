@@ -41,6 +41,7 @@ const Values = ({
     <section
       {...props}
       className={outerClasses}
+      id="values"
     >
       <div className="container-sm">
         <div className={innerClasses}>
@@ -53,7 +54,7 @@ const Values = ({
             Traversing the vast plains of W3b as a pack, ready to hunt, ready to eat and ready to win.  
             </h3>
             <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200"> WWT <span>- Wolves Work Together</span></h2>
-            <h4>Let the hunt begin.</h4>
+            <h4 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Let the hunt begin.</h4>
 
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
@@ -61,11 +62,11 @@ const Values = ({
 Welcome to the Wolf Market. Are you ready to join the pack?
          </p>
          </div>
-         <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+         <h2>
          There are 6 values that represent 6 wolves in a pack.
             </h2>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+              <p >
               To bring together a network collective of NFT enthusiasts, entrepreneurs’, artists, and business owners, creating an
 ecosystem of high-quality services and utilities.
                 </p>

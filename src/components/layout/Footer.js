@@ -44,8 +44,8 @@ const Footer = ({
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            
-            <div className="footer-copyright"><a href="https://winsnft.io">Wolves of NFT Street</a>. All right reserved</div>
+            <FooterNav />
+            <div className="footer-copyright"><a href="https://winsnft.io">Wolves In NFT Street</a>. All right reserved</div>
           </div>
         </div>
       </div>

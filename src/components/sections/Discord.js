@@ -43,6 +43,7 @@ const Discord = ({
     <section
       {...props}
       className={outerClasses}
+      id="discord"
     >
       <div className="container-sm">
         <div className={innerClasses}>
@@ -54,7 +55,7 @@ const Discord = ({
             <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="dark" wideMobile href="https://discord.gg/eVWhRYnT">
-                    Join The Pack
+                    Join The Pack Discord
                     </Button>
                 </ButtonGroup>
               

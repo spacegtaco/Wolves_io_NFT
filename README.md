@@ -1,1 +1,1 @@
-#Wolves of NFT Street
+#Wolves in NFT Street
