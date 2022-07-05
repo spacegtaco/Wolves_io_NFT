@@ -79,3 +79,4 @@ const SmoothScroll = ({
 SmoothScroll.propTypes = propTypes;
 
 export default SmoothScroll;
+

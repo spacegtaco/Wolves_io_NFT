@@ -1,16 +1,23 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
+import SmoothScroll from '../../elements/SmoothScroll';
+import ButtonGroup from '../../elements/ButtonGroup';
+import Button from '../../elements/Button';
 
 const FooterNav = ({
   className,
   ...props
 }) => {
 
+  const history = useHistory();
+  console.log(history.location);
+
   const classes = classNames(
     'footer-nav',
     className
   );
+
 
   return (
     <nav
@@ -18,20 +25,60 @@ const FooterNav = ({
       className={classes}
     >
       <ul className="list-reset">
-        <li>
-          <Link to="#0">Values</Link>
+      <li>
+      <SmoothScroll
+        smooth={true}
+        duration={500}
+        className={classes}
+        to="vision"
+        onClick={() => history.push("/?id=vision")}
+      >
+        VISION
+      </SmoothScroll>
         </li>
         <li>
-          <Link to="#1">Vision</Link>
+        <SmoothScroll
+        smooth={true}
+        duration={500}
+        className={classes}
+        to="values"
+        onClick={() => history.push("/?id=values")}
+      >
+        VALUES
+      </SmoothScroll>
         </li>
         <li>
-          <Link to="#2">About us</Link>
+        <ButtonGroup>
+        <Button tag="a" color="primary" wideMobile href="https://discord.gg/eVWhRYnT">
+                    DISCORD
+         </Button>
+      </ButtonGroup>
         </li>
         <li>
-          <Link to="#3">Roadmap</Link>
+          <Link to="#aboutus">About us</Link>
         </li>
         <li>
-          <Link to="#4">Team</Link>
+        <SmoothScroll
+        smooth={true}
+        duration={500}
+        className={classes}
+        to="roadmap"
+        onClick={() => history.push("/?id=roadmap")}
+      >
+        ROADMAP
+      </SmoothScroll>
+      
+        </li>
+        <li>
+          <SmoothScroll
+        smooth={true}
+        duration={500}
+        className={classes}
+        to="team"
+        onClick={() => history.push("/?id=team")}
+      >
+        TEAM
+      </SmoothScroll>
         </li>
       </ul>
     </nav>
