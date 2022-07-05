@@ -56,7 +56,7 @@ const Roadmap = ({
          <h2 className="mt-0 mb-16" data-reveal-delay="200">
          Hunt Phase #1
             </h2>
-            <ul className="list-reset list-roadmap">
+            <ul className="list-reset list-roadmap reveal-from-right">
                 <li>
                 <div>
                 Build the discord, socials and website for Wolves In NFT St.
@@ -83,7 +83,7 @@ const Roadmap = ({
          <h2 className="mt-0 mb-16" data-reveal-delay="200">
          Hunt Phase #2
             </h2>
-            <ul className="list-reset list-roadmap">
+            <ul className="list-reset list-roadmap reveal-from-right">
                 <li>
                 <div>
                 Recruit a community of 888 Wolves to join the ‘Wolves Waiting List’ (WWL) and gain exclusive access to the private Wolves Den (Discord). 
@@ -105,7 +105,7 @@ const Roadmap = ({
          <h2 className="mt-0 mb-16" data-reveal-delay="200">
          Hunt Phase #3
             </h2>
-            <ul className="list-reset list-roadmap">
+            <ul className="list-reset list-roadmap reveal-from-right">
                 <li>
                 <div>
                 WIN$ Tokenomics eco-system announced
@@ -132,7 +132,7 @@ const Roadmap = ({
          <h2 className="mt-0 mb-16" data-reveal-delay="200">
          Hunt Phase #4
             </h2>
-            <ul className="list-reset list-roadmap">
+            <ul className="list-reset list-roadmap reveal-from-right">
                 <li>
                 <div>
                 Announce the business plan and project timeline for Derivative 2
@@ -149,7 +149,7 @@ const Roadmap = ({
          <h2 className="mt-0 mb-16 " data-reveal-delay="200">
          Hunt Phase #5
             </h2>
-            <ul className="list-reset list-roadmap">
+            <ul className="list-reset list-roadmap reveal-from-right">
                 <li>
                 <div>
                 Launch the 1st & 2nd CCO Derivatives of 5,555 (each) free mint NFTs to the market, with a percentage of the income going to the Wolves community wallet. This will allow us to invest it directly back into Wolves projects and initiatives.
