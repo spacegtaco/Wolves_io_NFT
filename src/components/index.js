@@ -1,1 +1,0 @@
-export { default as CountDown } from './countDown/CountDown';
