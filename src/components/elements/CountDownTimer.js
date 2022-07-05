@@ -1,4 +1,3 @@
-import "../../datetime.css";
 import DateTimeDisplay from "./DateTimeDisplay";
 import useCountDown from "../../utils/useCountDown";
 
@@ -15,15 +14,7 @@ const ExpiredNotice = () => {
 const CountDownFinished = () => {
   return (
     <div className="countdown-finished">
-       <a
-        href="https://discord.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="countdown-link"
-      >
-        
-      </a>
-      <p>Please select a future date and time.</p>
+      <p>Discord is closed, stay alert for when it re-opens</p>
     </div>
   );
 };
@@ -32,9 +23,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <div className="show-counter">
       <div className="countdown-text">
-        <DateTimeDisplay value={days} type={"Days"} isDanger={false} />
-        <p>:</p>
-        <DateTimeDisplay value={hours} type={"Hours"} isDanger={false} />
+        <DateTimeDisplay value={hours} type={"Hours"} isDanger={hours <= 2} />
         <p>:</p>
         <DateTimeDisplay value={minutes} type={"Mins"} isDanger={false} />
         <p>:</p>

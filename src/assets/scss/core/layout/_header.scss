@@ -1,5 +1,5 @@
 .site-header {
-	position: absolute !important;
+	position: fixed !important;
 	top: 0;
 	width: 100%;
 	z-index: 10 !important;
@@ -148,5 +148,6 @@
 
 	.site-header-inner {
 		height: $header-height__desktop;
+		padding-top: 10px;
 	}
 }
