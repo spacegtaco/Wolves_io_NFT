@@ -23,6 +23,13 @@
 			vertical-align: top;
 		}
 	}
+    .countdown-section {
+        margin-top: 1em;
+    }
+    .countdown-section h4 {
+        margin-top: 2em;
+        margin-bottom: 0 !important;
+    }
 }
 
 @include media( '<=medium' ) {
@@ -69,11 +76,5 @@
 			margin-top: $hero--inner-padding-v_desktop;
 		}
 	}
-    .countdown-section {
-        margin-top: 1em;
-    }
-    .countdown-section h4 {
-        margin-top: 2em;
-        margin-bottom: 0 !important;
-    }
+
 }

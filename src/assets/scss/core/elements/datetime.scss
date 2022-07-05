@@ -75,6 +75,13 @@
     line-height: 2rem;
   }
   
+  @include media( '<=medium' ) {
+    .show-counter {
+        padding: 0;
+      }
+
+}
+
   @media only screen and (max-width: 500px) {
     .show-counter .countdown > span {
       font-size: 1rem;
