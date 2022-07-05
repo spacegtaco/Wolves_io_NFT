@@ -26,7 +26,7 @@ const AboutUs = ({
 
 
   const outerClasses = classNames(
-    'hero section is-boxed',
+    'hero section aboutus',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',

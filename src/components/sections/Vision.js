@@ -24,7 +24,7 @@ const Vision = ({
 }) => {
 
   const outerClasses = classNames(
-    'hero section center-content is-boxed',
+    'vision hero section center-content ',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',

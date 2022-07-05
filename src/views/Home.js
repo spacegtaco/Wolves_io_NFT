@@ -9,14 +9,15 @@ import Wolves from '../components/sections/Wolves';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
+import Discord from '../components/sections/Discord';
 
 const Home = () => {
 
   return (
     <>
-    <Wolves />
-      <Values bottomDivider />
-      <Vision topDivider />
+      <Vision bottomDivider />
+      <Values topDivider />
+      <Discord topDivider />
       <AboutUs topDivider />
       <Roadmap topDivider/>
       <Team imageFill topDivider/>

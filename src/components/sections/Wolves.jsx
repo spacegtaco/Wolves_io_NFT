@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import bg from './../../assets/images/Wins__bg.jpg';
+import bg from './../../assets/images/WelcomeWolves.jpg';
 
 const Wolves = () => {
   return (
