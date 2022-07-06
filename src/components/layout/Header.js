@@ -9,7 +9,7 @@ import SmoothScroll from '../elements/SmoothScroll';
 const propTypes = {
   navPosition: PropTypes.string,
   hideNav: PropTypes.bool,
-  hideSignin: PropTypes.bool,
+  hideButton: PropTypes.bool,
   bottomOuterDivider: PropTypes.bool,
   bottomDivider: PropTypes.bool
 }
@@ -17,7 +17,7 @@ const propTypes = {
 const defaultProps = {
   navPosition: '',
   hideNav: false,
-  hideSignin: false,
+  hideButton: false,
   bottomOuterDivider: false,
   bottomDivider: false
 }
@@ -26,7 +26,7 @@ const Header = ({
   className,
   navPosition,
   hideNav,
-  hideSignin,
+  hideButton,
   bottomOuterDivider,
   bottomDivider,
   ...props
@@ -173,7 +173,7 @@ className={
       </SmoothScroll>
         </li>
       </ul>
-      {!hideSignin &&
+      {!hideButton &&
     <ul
       className="list-reset header-nav-right"
     >

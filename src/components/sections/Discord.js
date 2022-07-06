@@ -22,6 +22,7 @@ const Discord = ({
   bottomDivider,
   hasBgColor,
   invertColor,
+  hideButton,
   ...props
 }) => {
 
@@ -52,16 +53,15 @@ const Discord = ({
             <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
             Are you ready to join?
             </h2>
-        
+            {!hideButton &&
             <div className="reveal-from-bottom" data-reveal-delay="400">
                 <ButtonGroup>
                   <Button tag="a" color="dark" wideMobile href="https://discord.gg/eVWhRYnT">
                     Join The Discord
                     </Button>
                 </ButtonGroup>
-            </div>
+            </div>}
             <div className="reveal-from-bottom countdown-section" data-reveal-delay="600">
-            <h4>Time remaining to join</h4>
             <CountDown />
             </div>
           </div>

@@ -1,5 +1,7 @@
 import PropTypes from 'prop-types';
 
+
+
 // Props shared by all sections
 const SectionShared = {
   types: {
@@ -8,7 +10,8 @@ const SectionShared = {
     topDivider: PropTypes.bool,
     bottomDivider: PropTypes.bool,
     hasBgColor: PropTypes.bool,
-    invertColor: PropTypes.bool
+    invertColor: PropTypes.bool,
+    hideButton: PropTypes.bool
   },
   defaults: {
     topOuterDivider: false,
@@ -16,7 +19,8 @@ const SectionShared = {
     topDivider: false,
     bottomDivider: false,
     hasBgColor: false,
-    invertColor: false
+    invertColor: false,
+    hideButton: false
   }
 }
 

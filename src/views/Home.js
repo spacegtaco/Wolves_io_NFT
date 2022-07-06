@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <Vision bottomDivider />
       <Values topDivider />
-      <Discord topDivider />
+      <Discord hideButton topDivider />
       <AboutUs topDivider />
       <Roadmap topDivider/>
       <Team imageFill topDivider/>

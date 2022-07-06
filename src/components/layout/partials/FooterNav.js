@@ -1,12 +1,22 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import SmoothScroll from '../../elements/SmoothScroll';
 import ButtonGroup from '../../elements/ButtonGroup';
 import Button from '../../elements/Button';
 
+const propTypes = {
+  hideButton: PropTypes.bool
+}
+const defaultProps = {
+  hideButton: false
+}
+
+
 const FooterNav = ({
   className,
+  hideButton,
   ...props
 }) => {
 
@@ -47,13 +57,13 @@ const FooterNav = ({
         VALUES
       </SmoothScroll>
         </li>
-        <li>
+        {!hideButton &&<li>
         <ButtonGroup>
         <Button tag="a" color="primary" wideMobile href="https://discord.gg/eVWhRYnT">
                     DISCORD
          </Button>
       </ButtonGroup>
-        </li>
+        </li>}
         <li>
           <Link to="#aboutus">About us</Link>
         </li>
