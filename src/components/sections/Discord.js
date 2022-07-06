@@ -56,7 +56,7 @@ const Discord = ({
             <div className="reveal-from-bottom" data-reveal-delay="400">
                 <ButtonGroup>
                   <Button tag="a" color="dark" wideMobile href="https://discord.gg/eVWhRYnT">
-                    Join The Wolves Discord
+                    Join The Discord
                     </Button>
                 </ButtonGroup>
             </div>
