@@ -55,13 +55,6 @@ const Values = ({
             </h3>
             <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200"> WWT <span>- Wolves Work Together</span></h2>
             <h4 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Let the hunt begin.</h4>
-
-            <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              We are wild and spiritual hunters, devourers of information, consuming all in our path to learn, teach, and win. We work in packs, dedicated teams who operate through primal instinct, crossing physical and digital planes of this world in search of new opportunities to feed our family. We are wolves, building inter-generational wealth, doing our part to grow, thrive and survive as one. Voraciously dedicated to our to our vision, we are exclusive x inclusive, a Society of entrepreneurial beasts who are prepared to push all boundaries, howl at the moon of our lofty ambitions and unleash the potential within. ALPHA is our prey; Education is our Way and W3b is our play. 
-Welcome to the Wolf Market. Are you ready to join the pack?
-         </p>
-         </div>
          <h2>
          There are 6 values that represent 6 wolves in a pack.
             </h2>
