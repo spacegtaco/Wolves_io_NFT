@@ -55,6 +55,7 @@ const Values = ({
             </h3>
             <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200"> WWT <span>- Wolves Work Together</span></h2>
             <h4 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">Let the hunt begin.</h4>
+            <br></br>
          <h2>
          There are 6 values that represent 6 wolves in a pack.
             </h2>
