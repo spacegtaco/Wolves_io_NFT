@@ -1,5 +1,6 @@
 import React from 'react'
 import videoBg from './../../assets/videos/Wolf_Promo_Video_bg.mp4';
+import imageBgDesktop from './../../assets/images/bgWolf.jpg';
 import imageBgMobile from './../../assets/images/bgWolfMobile.jpg';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
@@ -35,6 +36,11 @@ const MainDesktop = () => {
                 </ButtonGroup>
         </div>
         </div>
+        <Image
+                src={imageBgDesktop} 
+                alt="Wins Wolf"
+                className="bgImage" />
+           
         <video src={videoBg} autoPlay muted loop/>
     </div>
   );
