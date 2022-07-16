@@ -4,6 +4,9 @@ import imageBgMobile from './../../assets/images/bgWolfMobile.jpg';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import discordLogo from './../../assets/images/discordLogo.png';
+import classNames from 'classnames';
+
+
 
 
 const MainDesktop = () => {
@@ -14,9 +17,10 @@ const MainDesktop = () => {
         <div className="content">
             <h1>Full site coming soon</h1>
             <ButtonGroup>
-            <image src={discordLogo} />
+              
             <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF" >
-                   Join Disocrd
+            <img className={classNames} src={discordLogo} />
+             Join Disocrd
                     </Button>
                 </ButtonGroup>
         </div>
@@ -32,10 +36,10 @@ const MainMobile = () => {
           <div className="content">
               <h1>Full site coming soon</h1>
               <ButtonGroup>
-              <image src={discordLogo} />
-                    <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF">
-                    Join Discord
-                      </Button>
+              <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF" >
+            <img className={classNames} src={discordLogo} />
+             Join Disocrd
+                    </Button>
                   </ButtonGroup>
           </div>
       </div>
