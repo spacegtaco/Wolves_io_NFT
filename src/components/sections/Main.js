@@ -1,11 +1,12 @@
 import React from 'react'
 import videoBg from './../../assets/videos/WIN_PROMO_VID.mp4';
-import imageBg from './../../assets/images/bgWolf.jpg';
+import imageBgMobile from './../../assets/images/bgWolfMobile.jpg';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
+import discordLogo from './../../assets/images/discordLogo.png';
 
 
-const MainMobile = () => {
+const MainDesktop = () => {
   return (
     <div className='main'>
         <div className="overlay"></div>
@@ -13,8 +14,9 @@ const MainMobile = () => {
         <div className="content">
             <h1>Full site coming soon</h1>
             <ButtonGroup>
-                  <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF">
-                    Join The Discord
+            <image src={discordLogo} />
+            <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF" >
+                   Join Disocrd
                     </Button>
                 </ButtonGroup>
         </div>
@@ -22,16 +24,17 @@ const MainMobile = () => {
   );
 };
 
-const MainDesktop = () => {
+const MainMobile = () => {
     return (
       <div className='main'>
           <div className="overlay"></div>
-          <image src={imageBg} />
+          <image src={imageBgMobile} />
           <div className="content">
               <h1>Full site coming soon</h1>
               <ButtonGroup>
+              <image src={discordLogo} />
                     <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF">
-                      Join The Discord
+                    Join The Discord
                       </Button>
                   </ButtonGroup>
           </div>
@@ -66,8 +69,8 @@ const useViewport = () => {
   return { width, height };
 };
 
-const MobileComponent = () => <MainDesktop />;
-const DesktopComponent = () => <MainMobile />;
+const MobileComponent = () => <MainMobile />;
+const DesktopComponent = () => <MainDesktop />;
 
 const MyComponent = () => {
   const { width } = useViewport();
