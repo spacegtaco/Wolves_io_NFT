@@ -43,8 +43,9 @@ const MainMobile = () => {
     return (
      
         
-          <div className="content">
+          <div className="content mobile">
           <Image
+          className="logo"
                 src={WolfWhite} 
                 alt="Wins Wolf"
                 width={200}
