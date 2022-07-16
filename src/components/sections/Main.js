@@ -13,7 +13,7 @@ import WolfWhite from './../../assets/images/WolfWhite.svg';
 
 const MainDesktop = () => {
   return (
-    <div className='main Desktop'>
+    <div className='main desktop'>
             
         <div className="content">
 
