@@ -39,7 +39,7 @@ video {
 
 }
 
-.content img.logo {
+.content.desktop img.logo {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -49,8 +49,18 @@ video {
   padding-top: 5%;
 
 }
+.content.mobile img.logo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-top: 80px;
+
+}
 .content img.bgImage {
-bottom: 0px;
+bottom: 0;
 } 
 
 .content-button {
