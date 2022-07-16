@@ -1,10 +1,16 @@
-.main {
-    background-image: url(../../../images/bgWolf.jpg);
+.main.mobile {
+    background-image: url(../../../images/bgWolfMobile.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .main h1 {
+    font-size: xx-large;
+    margin-bottom: 10px!important;
+}
+
+.mainMobile h1 {
     font-size: xx-large;
     margin-bottom: 10px!important;
 }

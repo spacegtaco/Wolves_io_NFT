@@ -5,6 +5,8 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import discordLogo from './../../assets/images/discordLogo.png';
 import classNames from 'classnames';
+import Image from '../elements/Image';
+import WolfWhite from './../../assets/images/WolfWhite.svg';
 
 
 
@@ -12,8 +14,16 @@ import classNames from 'classnames';
 const MainDesktop = () => {
   return (
     <div className='main'>
-        <div className="overlay"></div>
+            
         <div className="content">
+
+        <Image
+                src={WolfWhite} 
+                alt="Wins Wolf"
+                width={250}
+                height={170} />
+           
+            <div className='content-button'>
             <h1>Full site coming soon</h1>
             <ButtonGroup>
               
@@ -23,6 +33,7 @@ const MainDesktop = () => {
                     </Button>
                 </ButtonGroup>
         </div>
+        </div>
         <video src={videoBg} autoPlay muted loop/>
     </div>
   );
@@ -30,18 +41,26 @@ const MainDesktop = () => {
 
 const MainMobile = () => {
     return (
-      <div className='main'>
-          <div className="overlay"></div>
-          <image src={imageBgMobile} />
+    
+      <div className='main mobile'>
           <div className="content">
-              <h1>Full site coming soon</h1>
-              <ButtonGroup>
+          <Image
+                src={WolfWhite} 
+                alt="Wins Wolf"
+                width={250}
+                height={170} />
+           
+            <div className='content-button'>
+            <h1>Full site coming soon</h1>
+            <ButtonGroup>
               <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF" >
             <img className={classNames} src={discordLogo} />
              Join Disocrd
                     </Button>
                   </ButtonGroup>
           </div>
+          <image src={imageBgMobile} />
+      </div>
       </div>
     );
   };
