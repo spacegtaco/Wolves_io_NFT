@@ -45,11 +45,11 @@ video {
   justify-content: flex-start;
   align-items: center;
   color: white;
-  padding-top: 120px;
+  padding-top: 5%;
 
 }
 .content img.bgImage {
-top: 0px;
+bottom: 0px;
 } 
 
 .content-button {
@@ -61,15 +61,16 @@ top: 0px;
   justify-content: flex-end;
   align-items: center;
   color: white;
+  z-index: 100;
 
   
 }
 
 .main .content-button {
-  padding-bottom: 100px;
+  padding-bottom: 10%;
 }
 .mobile .content-button {
-  padding-bottom: 60px;
+  padding-bottom: 5%;
 }
 .content-button img {
 height: 24px;
