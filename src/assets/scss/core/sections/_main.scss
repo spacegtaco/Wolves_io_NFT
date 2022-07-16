@@ -37,7 +37,10 @@ video {
   top: 0;
 
 }
-
+.content.mobile {
+ 
+ margin-top: -40px
+}
 
 .content img.logo {
   position: absolute;
@@ -46,7 +49,7 @@ video {
   justify-content: flex-start;
   align-items: center;
   color: white;
-  margin-top: 80px;
+  padding-top: 80px;
 
 }
 
