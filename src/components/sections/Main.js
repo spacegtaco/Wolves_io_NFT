@@ -20,8 +20,8 @@ const MainDesktop = () => {
         <Image
                 src={WolfWhite} 
                 alt="Wins Wolf"
-                width={250}
-                height={170} />
+                width={200}
+                height={150} />
            
             <div className='content-button'>
             <h1>Full site coming soon</h1>
@@ -47,8 +47,8 @@ const MainMobile = () => {
           <Image
                 src={WolfWhite} 
                 alt="Wins Wolf"
-                width={250}
-                height={170} />
+                width={200}
+                height={150} />
            
             <div className='content-button'>
             <h1>Full site coming soon</h1>
