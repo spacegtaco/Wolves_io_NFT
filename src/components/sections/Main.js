@@ -13,7 +13,7 @@ import WolfWhite from './../../assets/images/WolfWhite.svg';
 
 const MainDesktop = () => {
   return (
-    <div className='main'>
+    <div className='main video'>
             
         <div className="content">
 
@@ -42,7 +42,8 @@ const MainDesktop = () => {
 const MainMobile = () => {
     return (
     
-      <div className='main mobile'>
+      <div className='main'>
+        <div className='mobile'>
           <div className="content">
           <Image
                 src={WolfWhite} 
@@ -60,6 +61,7 @@ const MainMobile = () => {
                   </ButtonGroup>
           </div>
           <image src={imageBgMobile} />
+      </div>
       </div>
       </div>
     );
