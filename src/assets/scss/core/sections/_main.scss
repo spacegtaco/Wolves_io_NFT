@@ -39,7 +39,7 @@ video {
 }
 .content.mobile {
  
- margin-top: -40px
+ margin-top: -80px
 }
 
 .content img.logo {
@@ -49,10 +49,12 @@ video {
   justify-content: flex-start;
   align-items: center;
   color: white;
-  padding-top: 80px;
+  padding-top: 120px;
 
 }
-
+.content img.bgImage {
+top: 0px;
+} 
 
 .content-button {
   position: absolute;
