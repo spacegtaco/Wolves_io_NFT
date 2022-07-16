@@ -18,6 +18,7 @@ const MainDesktop = () => {
         <div className="content">
 
         <Image
+        className="logo"
                 src={WolfWhite} 
                 alt="Wins Wolf"
                 width={200}

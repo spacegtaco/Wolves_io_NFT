@@ -38,15 +38,15 @@ video {
 
 }
 
-.content .logo{
+
+.content img.logo {
   position: absolute;
-  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   color: white;
-  padding-top: 80px;
+  margin-top: 80px;
 
 }
 
@@ -65,7 +65,7 @@ video {
 }
 
 .main .content-button {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .mobile .content-button {
   padding-bottom: 60px;
