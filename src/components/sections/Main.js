@@ -34,7 +34,7 @@ const MainMobile = () => {
               <ButtonGroup>
               <image src={discordLogo} />
                     <Button tag="a" color="dark" wideMobile href="https://discord.gg/YHSHqqa9DF">
-                    Join The Discord
+                    Join Discord
                       </Button>
                   </ButtonGroup>
           </div>
