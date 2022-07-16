@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from './../../assets/videos/WIN_PROMO_VID.mp4';
+import videoBg from './../../assets/videos/Wolf_Promo_Video_bg.mp4';
 import imageBgMobile from './../../assets/images/bgWolfMobile.jpg';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
@@ -13,7 +13,6 @@ const MainDesktop = () => {
   return (
     <div className='main'>
         <div className="overlay"></div>
-        <video src={videoBg} autoPlay muted loop/>
         <div className="content">
             <h1>Full site coming soon</h1>
             <ButtonGroup>
@@ -24,6 +23,7 @@ const MainDesktop = () => {
                     </Button>
                 </ButtonGroup>
         </div>
+        <video src={videoBg} autoPlay muted loop/>
     </div>
   );
 };
