@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from './../../assets/videos/Wolf_Promo_Video_bg.mp4';
+import videoBg from './../../assets/videos/WIN_PROMO_VID_AdobeExpress.mp4';
 import imageBgDesktop from './../../assets/images/bgWolf.jpg';
 import imageBgMobile from './../../assets/images/bgWolfMobile.jpg';
 import ButtonGroup from '../elements/ButtonGroup';
