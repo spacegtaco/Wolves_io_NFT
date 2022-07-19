@@ -37,12 +37,10 @@ const MainDesktop = () => {
                 </ButtonGroup>
         </div>
         </div>
-        <Image
-                src={imageBgDesktop} 
-                alt="Wins Wolf"
-                className="bgImage" />
-           
-        <video src={videoSrc} autoPlay muted loop/>
+           <div className='video-wrapper'> 
+           <video src={videoSrc} autoPlay muted loop/>
+           </div>
+       
     </div>
   );
 };
