@@ -6,10 +6,11 @@ import discordLogo from './../../assets/images/discordLogo.png';
 import classNames from 'classnames';
 import Image from '../elements/Image';
 import WolfWhite from './../../assets/images/WolfWhite.svg';
-
+import mobileBgImage from './../../assets/images/bgWolfMobile.jpg'
 
 
 const videoSrc = "https://d331rscqvwaqrz.cloudfront.net/WIN_PROMO_VID.mp4";
+
 
 const MainDesktop = () => {
   return (
@@ -48,7 +49,7 @@ const MainMobile = () => {
     return (
      
         
-          <div className="content mobile">
+          <div className="content mobile" style = {{ backgroundImage:`url(${mobileBgImage})` }} >
           <Image
           className="logo"
                 src={WolfWhite} 
