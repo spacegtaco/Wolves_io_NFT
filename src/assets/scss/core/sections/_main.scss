@@ -96,10 +96,21 @@ bottom: 0;
   padding-bottom: 150px;
 }
 .mobile .content-button {
-  padding-bottom: 10%;
+  padding-bottom: 25%;
 }
 .content-button img {
 height: 24px;
 width: auto;
+
+}
+
+@include media( '<=medium' ) {
+  .desktop .content img.logo {
+  padding-top: 10%;
+  }
+
+  .main-container .content-button {
+    padding-bottom: 10%;
+  }
 
 }
