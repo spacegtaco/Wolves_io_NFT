@@ -47,8 +47,6 @@ const MainDesktop = () => {
 
 const MainMobile = () => {
     return (
-     
-        
           <div className="content mobile" style = {{ backgroundImage:`url(${mobileBgImage})` }} >
           <Image
           className="logo"
