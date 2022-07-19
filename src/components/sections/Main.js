@@ -13,7 +13,7 @@ const videoSrc = "https://d331rscqvwaqrz.cloudfront.net/WIN_PROMO_VID.mp4";
 
 const MainDesktop = () => {
   return (
-    <div className='main desktop'>
+    <div className='main-container desktop'>
             
         <div className="content">
 
