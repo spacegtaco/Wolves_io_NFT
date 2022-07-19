@@ -11,7 +11,7 @@ import WolfWhite from './../../assets/images/WolfWhite.svg';
 
 
 
-const videoSrc = "https://wolvesassets.s3.amazonaws.com/WIN_PROMO_VID.mp4";
+const videoSrc = "https://d331rscqvwaqrz.cloudfront.net/WIN_PROMO_VID.mp4";
 
 const MainDesktop = () => {
   return (
