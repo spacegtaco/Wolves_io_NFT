@@ -104,13 +104,13 @@ width: auto;
 
 }
 
-@include media( '<=medium' ) {
+@include media( '<=1024px' ) {
   .desktop .content img.logo {
-  padding-top: 10%;
+  padding-top: 5%;
   }
 
   .main-container .content-button {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
 
 }
