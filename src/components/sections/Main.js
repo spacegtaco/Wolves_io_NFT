@@ -11,6 +11,7 @@ import WolfWhite from './../../assets/images/WolfWhite.svg';
 
 
 
+const videoSrc = "https://wolvesassets.s3.amazonaws.com/WIN_PROMO_VID.mp4";
 
 const MainDesktop = () => {
   return (
@@ -41,10 +42,11 @@ const MainDesktop = () => {
                 alt="Wins Wolf"
                 className="bgImage" />
            
-        <video src={videoBg} autoPlay muted loop/>
+        <video src={videoSrc} autoPlay muted loop/>
     </div>
   );
 };
+
 
 const MainMobile = () => {
     return (
