@@ -1,7 +1,5 @@
 import React from 'react'
-import videoBg from './../../assets/videos/WIN_PROMO_VID_AdobeExpress.mp4';
-import imageBgDesktop from './../../assets/images/bgWolf.jpg';
-import imageBgMobile from './../../assets/images/bgWolfMobile.jpg';
+
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import discordLogo from './../../assets/images/discordLogo.png';
@@ -67,11 +65,6 @@ const MainMobile = () => {
                     </Button>
                   </ButtonGroup>
           </div>
-          <Image
-                src={imageBgMobile} 
-                alt="Wins Wolf"
-                className="bgImage" />
-           
         </div>
       
  
